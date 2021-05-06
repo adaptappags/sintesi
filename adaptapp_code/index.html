@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta author="LosXavales">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilito.css" type="text/css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+<div class="pantalla">
+
+
+    <div class="adaptapp">
+      <img src="img/adaptapp2.png">
+      <img src="img/adaptapp3.png">
+
+    </div>
+
+
+      <form action="/paginaweb.php">
+
+
+
+        <div class="registro">
+
+          <div class="titulos">
+            <div class="registrate">Registra't</div>
+            <div class="accede">Accedeix</div>
+        </div>
+
+
+          <label for="nom">Nom </label> <br/>
+          <input type="text" id="nom" name="nom"> <br/><br/>
+
+          <label for="primer_apellido">Cognom</label> <br/>
+          <input type="text" id="cognom1" name="cognom1"> <br/><br/>
+
+
+          <label for="email">Email</label><br/>
+          <input type="email" name="email"> <br/><br/>
+
+          <label for="password">Contrasenya <i>(6-12 caràcteres)</i></label><br/>
+          <input type="password" name="pwd" minlength="8"><br/><br/>
+
+          <label for="password">Confirmar contrasenya </label><br/>
+          <input type="password" name="pwd" minlength="8"><br/><br/>
+
+          <input type="button" id="botonet" name="boton" value="Continuar" onclick="msg()"><br/><br/>
+
+          <script>
+
+
+          var boton=document.getElementById("botonet");
+          boton.style.width="200px";
+          boton.style.height="30px";
+          boton.style.border="1rem";
+          boton.style.borderRadius="3rem";
+          boton.style.backgroundColor="AliceBlue";
+
+          function msg() {
+            alert("Registre correcte")
+          }
+
+          </script>
+        </form>
+    </div>
+</div>
+  </body>
+</html>
