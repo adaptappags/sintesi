@@ -2,6 +2,7 @@
 
 /*--------REGISTRE-----------------------*/
 
+}
 body{
   background-color: white;
 }
@@ -184,3 +185,177 @@ font-family: Roboto;
 }
 
 /*--------MENU HAMBURGUESA-----------------------*/
+
+
+input[type=checkbox] {
+visibility: hidden;
+margin:1rem;
+}
+
+#canviador{
+width: 3rem;
+height: 3rem;
+position: relative;
+
+
+}
+
+#canviador label{
+
+width:3rem;
+height:3rem;
+background-image:url(img/menu_ham.png);
+background-size:cover;
+position: absolute;
+left: 0rem;
+cursor: pointer;
+
+}
+
+li{
+font-family:Verdana;
+color:white;
+font-size:1.1rem;
+list-style:none;
+display: block;
+height:2rem ;
+width:14rem ;
+background: black;
+margin: 0.3rem;
+line-height:2rem;
+text-align:center;
+position:relative;
+border-radius:5rem;
+
+}
+li:hover{
+background: grey;
+}
+
+#canviador input[type=checkbox]:checked+label~ul{
+visibility:hiden;
+left: 1rem;
+position:absolute;
+transition:0.7s ease;
+left: 50%;
+
+}
+
+ul{
+position: relative;
+left: -20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------INICI-----------------------*/
+
+.contenedor{
+  position: relative;
+  top: 3rem;
+
+}
+
+
+.cajas{
+width: 130px;
+height: 130px;
+background:#F5D66E;
+margin: 5px;
+float: left;
+margin-left:2.1rem;
+text-align: center;
+
+}
+
+.barra{
+    height: 4rem;
+    background-color: #F5D66E;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+
+}
+
+/*-------BARRA DE ARRIBA-----------------------*/
+.buscar{
+
+  height: 3rem;
+  background-color: AliceBlue;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+
+}
+
+.searchTerm {
+  width: 100%;
+  padding: 5px;
+  height: 15px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  background-image: url(img/search.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 14px;
+  margin-right: 4px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+  background-color: white;
+}
+
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+
+}
+input[type=text1] {
+  text-align: center;
+  font-family: Roboto;
+  margin-top: 14px;
+}
+
+
+.pablo{
+  visibility: visible;
+  height: 20px;
+  width: 20px;
+  background: red;
+}
