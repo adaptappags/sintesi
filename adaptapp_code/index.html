@@ -27,9 +27,12 @@
         <div class="registro">
 
           <div class="titulos">
-            <div class="registrate">Registra't</div>
-            <div class="accede">Accedeix</div>
-        </div>
+
+                <div class="registrate">Registra't</div>
+            <a href="accedeix.html">
+                <div class="accede">Accedeix</div>
+              </a>
+          </div>
 
 
           <label for="nom">Nom </label> <br/>
@@ -50,19 +53,18 @@
 
           <input type="button" id="botonet" name="boton" value="Continuar" onclick="msg()"><br/><br/>
 
+
           <script>
+                var boton=document.getElementById("botonet");
+                boton.style.width="200px";
+                boton.style.height="30px";
+                boton.style.border="1rem";
+                boton.style.borderRadius="3rem";
+                boton.style.backgroundColor="AliceBlue";
 
-
-          var boton=document.getElementById("botonet");
-          boton.style.width="200px";
-          boton.style.height="30px";
-          boton.style.border="1rem";
-          boton.style.borderRadius="3rem";
-          boton.style.backgroundColor="AliceBlue";
-
-          function msg() {
-            alert("Registre correcte")
-          }
+                function msg() {
+                  alert("Registre correcte")
+                }
 
           </script>
         </form>
