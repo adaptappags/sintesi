@@ -1,0 +1,756 @@
+
+
+/*--------REGISTRE-----------------------*/
+
+}
+body{
+  background-color: white;
+}
+
+
+
+.registro{
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Roboto';
+  margin-top:3rem;
+  margin-left: 13rem;
+}
+
+.titulos{
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+  margin-bottom: 2rem;
+  left: -1rem;
+}
+
+.registrate{
+  height: 30px;
+  width: 120px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: #F9E6A8;
+}
+
+.accede{
+  height: 30px;
+  width: 120px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  left: 8rem;
+  top: 1px;
+}
+
+img {
+height: 70px;
+width: auto;
+position:relative;
+left: 9rem;
+}
+.pantalla{
+  position: absolute;
+  left: -8rem;
+}
+
+/*--------ACCEDEIX-----------------------
+<label for="psw-repeat"><b>Repeat Password</b></label>
+<input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+<hr>
+
+<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+<button type="submit" class="registerbtn">Register</button>
+</div>
+
+<div class="container signin">
+<p>Already have an account? <a href="#">Sign in</a>.</p>
+
+*/
+
+.screen{
+  position: absolute;
+}
+
+.adaptapp1{
+position: relative;
+margin-left: -9rem;
+}
+.titulos2{
+  height: 30px;
+  width: 120px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  display: inline;
+  position: absolute;
+  left: 2rem;
+  margin-top:2.5rem;
+}
+/* Add padding to containers */
+.container {
+  height: 506px;
+  width:215px ;
+  margin-top:4rem;
+  margin-left: 5rem;
+}
+
+.registro2{
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Roboto';
+}
+.accede2{
+  height: 30px;
+  width: 120px;
+  border-radius: 25px;
+  background-color: #F9E6A8;
+  text-align: center;
+  left: 8rem;
+  top: 1px;
+  position: absolute;
+}
+
+.registrate2{
+display: inline;
+
+}
+
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 25px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: #f1f1f1;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px ;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+.box{
+font-family: 'Roboto';
+
+
+}
+
+/*--------MENU HAMBURGUESA-----------------------*/
+
+
+#canviador input[type=checkbox] {
+visibility: hidden;
+margin:1rem;
+}
+
+#canviador{
+width: 3rem;
+height: 3rem;
+position: relative;
+}
+
+#canviador label{
+width:3rem;
+height:3rem;
+background-image:url(img/menu_ham.png);
+background-size:cover;
+position: absolute;
+left: 0rem;
+cursor: pointer;
+}
+
+li{
+font-family: 'Roboto';
+color:white;
+font-size:1.1rem;
+list-style:none;
+display: block;
+height:2rem ;
+width:14rem ;
+background: black;
+margin: 0.3rem;
+line-height:2rem;
+text-align:center;
+position:relative;
+border-radius:5rem;
+}
+
+li:hover{
+background: grey;
+}
+
+#canviador input[type=checkbox]:checked+label~ul{
+visibility:hiden;
+left: 1rem;
+position:absolute;
+transition:0.7s ease;
+left: 50%;
+
+}
+
+ul{
+position: relative;
+left: -20rem;
+background-color: #F5D66E;
+height:14rem;
+width:16rem;
+border-radius: 25px;
+}
+
+
+
+/*--------INICI-----------------------*/
+
+.contenedor{
+  position: relative;
+  top: 3rem;
+}
+.aprop{
+  font-family: 'Baloo Bhai 2';
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.cajas{
+width: 130px;
+height: 130px;
+background:lightblue;
+margin: 5px;
+float: left;
+margin-left:2.1rem;
+text-align: center;
+border-radius: 15px 0 15px 0;
+line-height:1.5rem;
+}
+
+p{
+  height: 25px;
+  background: #F5D66E;
+  margin:105px 0 0 0;
+  font-family: 'Roboto';
+  font-size: 1em;
+  border-radius: 0 0 15px 0;
+  margin-bottom: 1em;
+
+}
+
+#rest1{
+background-image:url(img/rest1.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest2{
+background-image:url(img/inici/rest2.png);
+background-size: 120%;
+background-repeat: no-repeat;
+}
+#rest3{
+background-image:url(img/inici/rest3.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest4{
+background-image:url(img/inici/rest4.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest5{
+background-image:url(img/inici/rest5.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest6{
+background-image:url(img/inici/rest6.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest7{
+background-image:url(img/inici/rest7.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest8{
+background-image:url(img/inici/rest8.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest9{
+background-image:url(img/inici/rest9.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest10{
+background-image:url(img/inici/rest11.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest11{
+background-image:url(img/inici/rest11.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest12{
+background-image:url(img/inici/rest12.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest13{
+background-image:url(img/inici/rest13.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest14{
+background-image:url(img/inici/rest14.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest15{
+background-image:url(img/inici/rest15.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#rest16{
+background-image:url(img/inici/rest16.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+.rango{
+height: 1rem;
+width: 1rem;
+background: red;
+
+}
+/*-------BARRA DE ARRIBA-----------------------*/
+.buscar{
+
+  height: 3rem;
+  width: auto;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+
+
+
+
+.search {
+  width: 100%;
+  position: absolute;
+  display: flex;
+
+}
+
+.searchTerm {
+  width: 100%;
+  padding: 5px;
+  height: 15px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  background-image: url(img/search.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 14px;
+  margin-right: 4px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+  background-color: white;
+}
+
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 80%;
+  position: absolute;
+  left: 20%;
+
+}
+input[type=text1] {
+  text-align: center;
+  font-family: 'Roboto';
+  margin-top: 14px;
+}
+
+/*-------BARRA DE ABAJO-----------------------*/
+
+
+
+.barra{
+  height: 3rem;
+  background-color: #F5D66E;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+.icon{
+  position: relative;
+  height: 2rem;
+  width: auto;
+  margin-left: 9%;
+  left: 0;
+  bottom: -8px;
+}
+
+/*-------BARRA DE RANGO-----------------------*/
+
+.slidecontainer {
+  width: 100%;
+  margin-top: 15rem;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 13px;
+  background: white;
+  outline: none;
+
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 0.7;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: black;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 60px;
+  background: green;
+  cursor: pointer;
+}
+
+.metros{
+float: left;
+font-family: 'Roboto';
+font-size: 1em;
+margin-left: 1rem;
+}
+.metros2{
+  margin-left:  80%;
+  font-family: 'Roboto';
+  font-size: 1em;
+ }
+
+.titulos{
+  margin-top: 15%;
+  height: 30px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+/*------tartareria----------*/
+
+
+.back{
+
+height: 3rem;
+width: 3rem;
+background-image: url(img/back.png);
+background-size: cover;
+float: left;
+margin-top: 1rem;
+}
+#slider{
+  overflow: hidden;
+}
+
+
+#slider figure{
+  position: relative;
+  width: 500%;
+  height: 900%;
+  animation: slider 10s infinite linear;
+  animation-direction: alternate;
+}
+
+#slider figure img{
+  width: 20%;
+  height: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {left:0;}
+  20%{left: 0}
+  25%{left: -100%;}
+  45%{left:-100%;}
+  50%{left: -200%}
+  70%{left: -200;}
+  75%{left: -300%}
+  95%{left: -300%}
+  100%{left: -400%}
+}
+
+.titol{
+  position: relative;
+  top: 5px;
+  left: 170px;
+  font-family: 'Baloo Bhai 2';
+}
+
+.agregador input[type=checkbox]{
+  visibility:hidden;
+}
+
+.agregador{
+  width:2rem;
+  height:2rem;
+  margin:1rem;
+  background-image: url(img/heart.png);
+  background-size:2rem;
+  position:relative;
+  border-radius: 0 0 0.5rem 0.25rem;
+}
+
+.agregador label{
+  width:2.7rem;
+  height:2.7rem;
+  background-image: url(img/heart1.png);
+  background-repeat:no-repeat;
+  background-size:2rem;
+  position:absolute;
+  border-radius:0 0 0.5rem 0.25rem;
+  left:0.5px;
+  top:-1px;
+  cursor:pointer;
+  opacity:0;
+}
+
+.agregador input[type=checkbox]:checked + label{
+  opacity:1;
+}
+.texto1{
+  font-family: 'Roboto';
+}
+#zona{
+  background: white;
+  margin-top: 15px;
+}
+#preu{
+  background: white;
+  margin-top: 15px;
+}
+#telf{
+  background: white;
+  margin-top: 15px;
+}
+#dinar{
+  background: white;
+  margin-top: 15px;
+}
+#horari{
+  background: white;
+  margin-top: 15px;
+}
+#comentar{
+  background: white;
+  margin-top: 50px;
+}
+#plat{
+  background: white;
+  margin-top: 80px;
+}
+#ambient{
+  background: white;
+  margin-top: 120px;
+}#caracteristiques{
+  background: white;
+  margin-top: 20px;
+}
+
+.ubi{
+  background:white;
+  margin-top: 50px;
+}
+#metro{
+  background: white;
+  margin-top: 15px;
+}
+
+.map_wrapper{
+  max-width: 700px;
+}
+.maps{
+  width: 100%;
+}
+
+.comentarios{
+  margin:24px 0;
+}
+
+.form_comentarios textarea{
+  width: 150%;
+  height: 84px;
+  max-width: 200%;
+  min-width: 100px;
+  max-height: 200%;
+  min-height: 84px;
+  padding:10px;
+  font-family: "Roboto";
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.form_comentarios .bth{
+  background-color: #F5D66E;
+  font-family: "Roboto";
+  border-radius: 0;
+  color:#fff;
+  margin-bottom: 20px;
+}
+
+.form_comentarios .btn:hover{
+  box-shadow: 0px 0px 9px rgba(0,0,0,.35)
+}
+
+.media {
+  border-top:1px solid #F5D66E;
+  padding-top:20px;
+}
+.media img{
+  margin-right: 500px;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: relative;
+  margin-top: 0.1rem;
+  left: 1rem;
+}
+.media .nombre{
+  background: white;
+  margin-top: 18px;
+  color:#F5D66E;
+}
+
+.media .nombre span{
+  font-size: 12px;
+  color:#000;
+  margin-left:10px;
+}
+
+.media .comentari1{
+  background: white;
+  margin-top: 15px;
+  font-family: "Roboto";
+  text-align: left;
+
+}
+
+.media .bottones {
+  text-align: right;
+  font-family:"Roboto";
+  font-size: 14px;
+  color:#acacac;
+  margin-top: 100px;
+}
+/*--------MENU DADES-----------------------*/
+.mail{
+
+  width: 16rem;
+  height: 2rem;
+  display:flex;
+  margin: 0 auto;
+  justify-content:center;
+  background: #f1f1f1;
+  font-size: 16px;
+  text-align: center;
+  line-height:2rem;
+
+}
+
+.usuario{
+  background: red;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  display:flex;
+  margin: 0 auto;
+  justify-content:center;
+  background-image: url(img/comentaris/01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nose{
+  display:flex;
+  margin: 0 auto;
+  justify-content:center;
+  font-family: 'Roboto'
+
+}
